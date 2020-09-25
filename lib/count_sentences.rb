@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    split_array = self.split(/\.)
     self.count_sentences
   
   end
